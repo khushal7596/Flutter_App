@@ -71,7 +71,7 @@ class NewApp extends StatelessWidget{
             SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
             itemBuilder: (context, index) => Container(
               color: Colors.purple,
-              margin: EdgeInsets.all(2),
+              margin: EdgeInsets.all(5),
             ),
         ),
 
