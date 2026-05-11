@@ -9,7 +9,7 @@ class  SecondPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("SecondPage" , style: TextStyle(fontSize: 20  , fontWeight: FontWeight.bold , color: Colors.white),),
         backgroundColor: Colors.deepPurple,
-        leading: IconButton(onPressed: () {}, icon: Icon(Icons.settings ) ),
+       
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.notifications))
         ],
