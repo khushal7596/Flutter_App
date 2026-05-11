@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FirstPageBot extends StatelessWidget {
-  const FirstPageBot({super.key});
+ 
 
   @override
   Widget build(BuildContext context) {
@@ -14,17 +14,18 @@ class FirstPageBot extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           // home
-          BottomNavigationBarItem(
+          .new(
             icon: Icon(Icons.home),
-            label: 'Home'
+            label: 'Home',
+            
           ),
           //profile
-          BottomNavigationBarItem(
+          .new(
             icon: Icon(Icons.person),
             label: 'Profile'
           ),
           //settings
-          BottomNavigationBarItem(
+          .new(
             icon: Icon(Icons.settings),
             label: 'settings'
           )
